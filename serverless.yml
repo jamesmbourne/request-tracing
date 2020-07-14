@@ -17,6 +17,8 @@ provider:
   tracing:
     apiGateway: true
     lambda: true
+  logs:
+    restApi: true
   name: aws
   runtime: nodejs12.x
   apiGateway:
